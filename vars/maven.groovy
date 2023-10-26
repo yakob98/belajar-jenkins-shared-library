@@ -1,3 +1,3 @@
-def call(String testing){
-    return sh("./mvnw ${testing}")
+def call(testing){
+  sh("./mvnw ${testing}")
 }
